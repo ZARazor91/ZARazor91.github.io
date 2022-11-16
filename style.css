@@ -1,0 +1,50 @@
+html {
+  background-color: rgb(230, 230, 230);
+}
+
+header, main, footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 135px 135px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:40px;
+  overflow: hidden;
+}
+
+.grid-item {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  top:auto;
+  bottom:auto;
+}
+
+button {
+  top:0;
+  bottom:0;
+  font-size:15px;
+  width: 120px;
+}
+
+.item-left {
+  text-align: left;
+}
+
+main {
+  top:40px;
+  bottom:20px;
+  overflow: auto;
+}
+
+footer {
+  bottom:0;
+  overflow: hidden;
+}
