@@ -20,7 +20,7 @@ header {
 }
 
 .grid-item {
-  padding: 10px;
+  padding-top: 8px;
   font-size: 20px;
   text-align: center;
   top:auto;
@@ -36,15 +36,27 @@ button {
 
 .item-left {
   text-align: left;
+  margin-left: 10px;
+}
+
+.item-right {
+  text-align: right;
+  padding-right: 10px;
 }
 
 main {
   top:40px;
-  bottom:20px;
+  background-color: white;
+  bottom:43px;
+  padding: 0px 10px;
+  width: calc(100vw - 20px);
   overflow: auto;
 }
 
 footer {
   bottom:0;
   overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
