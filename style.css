@@ -7,6 +7,7 @@ header, main, footer {
   position: absolute;
   min-width: 800px;
   width: 80%;
+  margin: auto;
 }
 
 header {
@@ -45,11 +46,8 @@ button {
 
 main {
   top:40px;
-  background-color: white;
   bottom:43px;
-  width: 80%;
   overflow: auto;
-  margin: auto;
 }
 
 footer {
