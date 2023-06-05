@@ -5,7 +5,7 @@ html {
 header, main, footer {
   background-color: rgb(230, 230, 230);
   position: absolute;
-  left: 10%;
+  margin: auto;
   min-width: 800px;
   width: 80%;
 }
