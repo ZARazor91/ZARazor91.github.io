@@ -4,8 +4,8 @@ html {
 
 header, main, footer {
   position: absolute;
-  left: 0;
-  width: 100%;
+  left: 10%;
+  width: 80%;
 }
 
 header {
