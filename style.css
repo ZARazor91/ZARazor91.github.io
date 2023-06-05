@@ -49,7 +49,7 @@ main {
   background-color: white;
   bottom:43px;
   padding: 0px 10px;
-  width: calc(100vw - 20px);
+  width: 80%;
   overflow: auto;
 }
 
