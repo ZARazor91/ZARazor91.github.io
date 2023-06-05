@@ -13,8 +13,8 @@ header {
   grid-template-columns: auto 135px 135px;
   position:fixed;
   top:0;
-  left:0;
-  right:0;
+  left:10%;
+  right:10%;
   height:40px;
   overflow: hidden;
 }
