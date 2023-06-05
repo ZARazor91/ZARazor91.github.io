@@ -4,7 +4,6 @@ html {
 
 header, main, footer {
   background-color: rgb(230, 230, 230);
-  position: absolute;
   min-width: 800px;
   width: 80%;
   margin: auto;
